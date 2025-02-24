@@ -28,24 +28,49 @@ This repository contains the implementation of three fundamental machine learnin
 
 **Note:** The results mentioned above were obtained during the first run. Your results may differ when running the implementation on your own device due to variations in hardware, software environment, or dataset updates.
 
+## Project Structure
+```
+Machine-Learning-Algorithms/
+│
+├── Binary_Logistic_Regression/
+│   ├── Binary_Logistic_Regression_Report.pdf
+│   ├── SciKitLearnDiabetes.csv
+│   └── Binary_Logistic_Regression.ipynb
+│
+├── kmeans_Clustering/
+│   ├── kmeansClustering.ipynb
+│   ├── report_assignment_3_0112230359.pdf
+│   └── dataset.txt
+│
+├── KNN_Classification_&_Regression/
+│   ├── Iris.csv
+│   ├── SciKitLearnDiabetes.csv
+│   ├── AI-Lab-Knn-report.pdf
+│   ├── Knn_regression.ipynb
+│   └── Knn_classification.ipynb
+│
+└── README.md
+```
+
+### Important Note:
+To ensure successful execution, update the dataset file paths inside the respective Jupyter Notebook (`.ipynb`) files. Failure to do so may result in runtime errors due to missing dataset locations.
+
 ## How to Use
 
 ### Clone the Repository:
-
 ```bash
 git clone https://github.com/neyamul-hasan14/Machine-Learning-Algorithms.git
 ```
 
 ### Navigate to the Desired Algorithm:
-
-- **For KNN**, go to the `KNN/` directory.
-- **For K-Means**, go to the `KMeans/` directory.
-- **For Logistic Regression**, go to the `Logistic_Regression/` directory.
+- **For KNN**, go to the `KNN_Classification_&_Regression/` directory.
+- **For K-Means**, go to the `kmeans_Clustering/` directory.
+- **For Logistic Regression**, go to the `Binary_Logistic_Regression/` directory.
 
 ### Run the Jupyter Notebooks:
-
 - Each directory contains a Jupyter Notebook (`*.ipynb`) with the implementation and analysis of the respective algorithm.
 - Open the notebook using **Jupyter Notebook** or any compatible IDE to explore the code and results.
+- **Ensure the dataset paths inside the notebooks are correctly set to avoid file-not-found errors.**
 
 ## Dependencies
 
@@ -57,15 +82,11 @@ git clone https://github.com/neyamul-hasan14/Machine-Learning-Algorithms.git
 - Scikit-learn
 - Matplotlib
 
-
-
 ### Install the required libraries using:
-
 ```bash
 pip install numpy pandas scikit-learn matplotlib seaborn
 ```
 
 ## Conclusion
-
 This repository provides a comprehensive implementation of three key machine learning algorithms. The results demonstrate the effectiveness of each algorithm in handling different types of data and tasks. The repository is structured to be easy to navigate and understand, making it a valuable resource for learning and applying machine learning techniques.
 
